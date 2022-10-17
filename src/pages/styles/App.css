@@ -1,0 +1,88 @@
+
+.footer-bar{
+ /* footer-bar */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0 0px;
+gap: 10px;
+position: relative;
+z-index: 0;
+width: 100%;
+height:fit-content;
+left: 0px;
+z-index: 0;
+bottom: 0;
+border-radius: 0.625em 0.625em 0px 0px ;
+
+background: #C8A2C8;
+}
+.footer-text-bar{
+    /* footer-text-bar */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+align-content: center;
+justify-content: center;
+gap: 5%;
+text-align: center;
+width: 100vw;
+
+height: fit-content;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+div.footer-text{
+    /* footer text */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 5%;
+
+width: fit-content;
+height: fit-content;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+p.footer-text{
+    /* footer text */
+
+width: fit-content;
+height: fit-content;
+
+font-family: 'sofia sans';
+font-style: normal;
+font-weight: 500;
+font-size: 0.75vw;
+line-height: fit-content;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+color: #ffff
+;
+
+backdrop-filter: blur(2px);
+/* Note: backdrop-filter has minimal browser support */
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}

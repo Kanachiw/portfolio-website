@@ -1,0 +1,404 @@
+.nav-bar{
+/* nav-bar */
+/* Auto layout */
+display: flex;
+flex-direction: column;
+
+align-items: flex-end;
+object-fit: contain;
+height: fit-content;
+width: fit-content;
+right: 5vw;
+padding: 3vw 0vw ;
+
+background: #ffff;
+right:5wv;
+position: relative;
+
+}
+.link-bar{
+/* link-bar */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+position: relative;
+width: auto;
+height: auto;
+padding: 3vh 0vw;
+padding-right:3.5vw;
+overflow: hidden;
+gap: 3vw;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.nav-links{
+/* NAV-LINKS */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 1.32%;
+
+
+width: fit-content;
+height: fit-content;
+
+
+
+}
+#gd.nav-links
+{
+    /* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+#pr.nav-links
+{
+    /* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+#dt.nav-links
+{
+    /* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+#rs.nav-links
+{
+    /* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+}
+
+
+.links{
+    width: fit-content;
+    height: fit-content;
+    
+    font-family: 'Segoe UI', BlinkMacSystemFont, -apple-system,  'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.3vw;
+    line-height: 1.3vw;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    
+    color: #281527;
+    text-decoration: none;
+    
+    backdrop-filter: blur(3px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+a.links:hover{
+    text-decoration:line-through;
+    background-color: #C8A2C8;
+
+    
+}
+
+
+
+/* ************************  Body content area *************************** */
+
+.body-content-area{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 3.03vh 4.31vw;
+    gap:  3.03vh;
+    
+    position:relative;
+    width: 47.45vw;
+    height: fit-content;
+    top: 20.96vh;
+
+background:#FFF6FF;
+animation-name:move-content;
+animation-duration: 3s;
+animation-fill-mode: forwards;
+
+}
+@keyframes move-content {
+    0% {left: -9.62vw;}
+    100%{left: 9.62vw;}
+    
+}
+    
+
+
+
+
+
+
+div.Pageheading{
+    /* Page Heading */
+    width: 39.50vw;
+    height: fit-content;
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+h1.Pageheading{/* page heading */
+    /* Auto layout */
+
+/* Inside auto layout */
+
+width: 35.50vw;
+height: fit-content;
+
+    width: fit-content;
+    height: fit-content;
+    
+    /*font-family: Roboto, Oxygen, 'Open Sans', 'Helvetica Neue', sans-serif;
+    */
+    font-family:'Muli';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: fit-content;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    margin: 0;
+
+    
+    color: #281527;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+div.Page_Subheading{
+
+    width: 35.50vw;
+    height: fit-content;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+   
+}
+h3.PageSubheading{
+    
+/* Heading 2 */
+width: 35.50vw;
+height: fit-content;
+margin: 0;
+/* Heading 2 */
+
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 28px;
+line-height: calc(28px + 1vh);
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+text-transform: capitalize;
+
+color: #C8A2C8;
+text-shadow: #281527;
+}
+
+.contact-links{
+    /* contact-links */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px 10px;
+gap: 1.5vh;
+
+width: 35.50vw;
+height: fit-content;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+.git{
+    /* 🦆 icon "github" */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+width: 30px;
+height: 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+object-fit: contain;
+
+}
+.mail{
+    
+    width: 30px;
+    height: 30px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+object-fit:contain;
+
+}
+.linkedin{
+    /* linkedin */
+
+    width: 30px;
+    height: 30px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+object-fit:contain;
+
+}
+div.bio-text{
+
+    /* Quick intro bio */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px;
+gap: 10px;
+
+width: 35.50vw;
+height: fit-content;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+object-fit:contain;
+}
+p.bio-text{
+    /* Paragraph */
+    margin: 0;
+
+    width: 35.50vw;
+    height: fit-content;
+
+font-family: 'Sofia Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+letter-spacing: 0.0075em;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+div.bio-text-2{
+    /* Quick intro bio */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px;
+gap: 10px;
+
+width: 35.50vw;
+height: fit-content;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+}
+p.bio-text-2{
+    width: 35.50vw;
+    height: fit-content;
+    margin: 0;
+    
+    font-family: 'Sofia Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.0075em;
+    
+    color: #000000;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;  
+}
+
+.profile-pic{
+position: relative;
+width: 35vw;
+height: 50.31vh;
+left: 50.14vw;
+bottom: 25vh;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+object-fit:contain;
+object-position: 50% 80%;
+
+}
+
+
+
+
+
