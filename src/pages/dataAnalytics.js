@@ -8,7 +8,7 @@ function dataAnalytics(){
 return(
     <React.Fragment>
         
-        <ComingSoon pagetitle="Design" />
+        <ComingSoon pagetitle="Data Analytics" />
 
        
     </React.Fragment>

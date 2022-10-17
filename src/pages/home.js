@@ -4,6 +4,7 @@ import './styles/home.css'
 import './styles/App.css'
 import {Footer, ContactBar} from './App.js'
 import Profilepic from './images/profile-pic.png'
+import  Resume from './rs_port.pdf'
 
 
 
@@ -16,7 +17,7 @@ return(
         <div id='gd' className='nav-links'> <Link className="links" to='/graphicDesign'> Designs </Link></div>
         <div id='pr'className='nav-links'> <Link className="links" to='/engineeringProjects'> Projects </Link></div>
         <div id='dt'className='nav-links'><Link className="links" to='/dataAnalytics'> Data  </Link></div>
-        <div id='rs' className='nav-links'><Link className="links" to='/resume_portfolio.pdf'> Resume</Link></div>
+        <div id='rs' className='nav-links'><a className="links" href={Resume} > Resume</a></div>
         </nav>
         
         <div className='content'>
